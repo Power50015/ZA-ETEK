@@ -1,6 +1,8 @@
 # ZACETEK
 This is Bootstrap 3 Theme
 
+For Live Preview : http://powerware.site/power/ZACETEK/
+
 INTRODUCTION & FEATURE
 
 ZAČETEK is a Creative & Modern One Page Template is a perfect template for Business Startups, web
