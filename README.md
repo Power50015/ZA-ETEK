@@ -20,7 +20,7 @@ also programmed to support both HTML5 and CSS3.
 Also it is called Front-end-framework.
 Bootstrap is a free collection of tools for creating a websites and web applications.
 
-MAIN FEATURES
+MAIN FEATURES :
 
 Valid HTML5, CSS3, jQuery.
 W3C Validated.
@@ -33,7 +33,7 @@ Bootstrap 3.3.7.
 Font-awesome-4.7.0.
 Well Documented & More……
 
-COMPATIBLE BROWSERS
+COMPATIBLE BROWSERS :
 
  IE6. IE7, IE8, IE9, IE10, IE11.
  Firefox.
@@ -42,7 +42,7 @@ COMPATIBLE BROWSERS
  Chrome.
  Edge.
 
-FILES INCLUDED
+FILES INCLUDED :
 
  HTML Files.
  CSS Files.
