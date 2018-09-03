@@ -1,0 +1,125 @@
+
+/** Large Screen
+	Laptops & Desktops **/
+@media (min-width:1200px)
+{
+}
+@media (max-width:1320px)
+{
+}
+/** Medium Screen
+    Small Laptops **/
+@media (min-width:992px)
+{
+    
+}
+
+/** Medium Screen
+    Small Laptops **/
+@media (max-width:1200px)
+{
+    .header .text-box
+    {
+        width: 100%;
+        margin-top: 155px;
+    }
+    .navbar .navbar-brand
+    {
+        margin-right: 0px;
+    }
+    .nav>li {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+/** Small Screen
+    Tablets **/
+@media (max-width:992px)
+{
+    .header .text-box
+    {
+        margin-top: 110px;
+    }
+    .navbar .navbar-brand
+    {
+        margin-right: 2px;
+    }
+    .nav>li
+    {
+        margin-right: 4px;
+        font-size: 9px;
+        padding: 0;
+        margin-left: 9px;
+    }
+    .team-cart .team-name{
+        left: 40px;
+    }
+}
+
+/** Small Screen
+    Tablets **/
+@media (min-width:768px)
+{
+    .navbar-collapse {
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+    .team-cart .team-name
+    {
+        left: 20px;
+    }
+}
+
+/** Extra Small Screen
+    Phones **/
+@media (max-width:767px)
+{
+    .line-icon
+    {
+        display: none;
+    }
+    .header .text-box
+    {
+        margin-top: 70px;
+    }
+    .header h1
+    {
+        font-size: 46px;
+    }
+    .navbar .navbar-brand
+    {
+        margin-right: 30px;
+    }
+    .navbar-default
+    {
+        height: auto;
+    }
+    .nav>li
+    {
+        margin-right: 0px;
+        padding-top: 10px;
+    }
+    .navbar-default .navbar-nav>li>a:hover
+    {
+        border-radius: initial;
+    }
+    .navbar-default .navbar-nav>.active>a
+    {
+        border-radius: initial;
+    }
+    .navbar-nav>li>.dropdown-menu
+    {
+        width: 100%;
+        border-radius: initial;
+        box-shadow: none;
+    }
+    .dropdown-menu
+    {
+        position: static;
+    }
+    .my-form{
+        margin-left: 0;
+        width: auto;
+        
+    }
+}
