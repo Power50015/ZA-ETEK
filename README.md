@@ -46,14 +46,22 @@ Well Documented & More……
 COMPATIBLE BROWSERS :
 
  IE6. IE7, IE8, IE9, IE10, IE11.
+
  Firefox.
+
  Safari.
+
  Opera.
+
  Chrome.
+
  Edge.
+
 
 FILES INCLUDED :
 
  HTML Files.
+
  CSS Files.
+
  JS Files.
