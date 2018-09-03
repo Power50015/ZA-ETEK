@@ -23,15 +23,25 @@ Bootstrap is a free collection of tools for creating a websites and web applicat
 MAIN FEATURES :
 
 Valid HTML5, CSS3, jQuery.
+
 W3C Validated.
+
 HTML5, CSS3, jQuery.
+
 Free Google Fonts.
+
 Fully Customizable.
+
 Clean Code.
+
 Fully Responsive.
+
 Bootstrap 3.3.7.
+
 Font-awesome-4.7.0.
+
 Well Documented & More……
+
 
 COMPATIBLE BROWSERS :
 
