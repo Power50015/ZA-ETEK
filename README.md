@@ -1,7 +1,7 @@
 # ZACETEK
 This is Bootstrap 3 Theme
 
-For Live Preview : http://powerware.site/power/ZACETEK/
+For Live Preview :
 
 INTRODUCTION & FEATURE
 
