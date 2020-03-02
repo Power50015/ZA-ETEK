@@ -1,7 +1,7 @@
 # ZACETEK
 This is Bootstrap 3 Theme
 
-For Live Preview :
+For Live Preview :https://power50015.github.io/ZACETEK/
 
 INTRODUCTION & FEATURE
 
