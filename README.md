@@ -3,7 +3,7 @@ an old template i made for education purpose.
 
 ![Preview Img](UX/screen.png)
 
-For Live Preview :https://power50015.github.io/ZACETEK/
+For Live Preview :https://zacetek-bootstrap3-team-template.netlify.app/
 
 ## Quickstart
 
