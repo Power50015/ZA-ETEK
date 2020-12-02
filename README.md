@@ -70,3 +70,9 @@ Bootstrap is a free collection of tools for creating a websites and web applicat
 - CSS Files.
 - JS Files.
 - PSD File.
+
+## Support:
+
+- If you need any help using the file or need special customizing please contact me via my Github or my Website.
+- If you like my html template, please follwo me , We’ll appreciate it very much Thank you.
+
