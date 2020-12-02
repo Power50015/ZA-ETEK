@@ -36,21 +36,15 @@
       integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
       crossorigin="anonymous"
     />
-    <!-- Animate -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
     <!-- fix Responsive sheet -->
     <link href="css/main.css" rel="stylesheet" />
   </head>
-
   <body>
     <!-- Start Header Section -->
     <header class="header w-100">
       <div class="overlay"></div>
       <div class="container">
-        <div class="col-md-7 mt-5 text-center text-uppercase">
+        <div class="col-md-7 mt-5 text-center text-uppercase wow rollIn">
           <p class="ask m-0">what are you waiting for?</p>
           <h1 class="m-0">let's be creative !</h1>
           <p class="black-box bg-3 color-2">
@@ -62,7 +56,7 @@
             <span class="color-1">start</span> doing that
             <img src="img/icon/2.png" class="visible-lg-inline-block" />
           </div>
-          <a href="#" class="color-1 animation-arrow" data-value="offer">
+          <a href="#" class="color-1 animation-arrow nav-link" data-value="offer">
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
           </a>
         </div>
@@ -93,11 +87,15 @@
         >
           <ul class="nav navbar-nav">
             <li class="active"><a href="#" class="nav-link">Home</a></li>
-            <li><a href="#" data-value="features" class="nav-link">Features</a></li>
+            <li>
+              <a href="#" data-value="features" class="nav-link">Features</a>
+            </li>
             <li><a href="#" data-value="skills" class="nav-link">SKILLS</a></li>
             <li><a href="#" data-value="work" class="nav-link">WORKS</a></li>
             <li><a href="#" data-value="team" class="nav-link">TEAM</a></li>
-            <li><a href="#" data-value="testimonials" class="nav-link">Contact</a></li>
+            <li>
+              <a href="#" data-value="testimonials" class="nav-link">Contact</a>
+            </li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#"
                 >Dropdown <span class="caret"></span
@@ -127,7 +125,7 @@
           </p>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4 item color-3 text-center">
+          <div class="col-xs-12 col-md-4 item color-3 text-center wow bounceInDown">
             <div class="icon color-2 bg-3">
               <i class="fa fa-desktop fa-3x" aria-hidden="true"></i>
             </div>
@@ -137,7 +135,7 @@
               vestibulum fringilla accumsan ornare quis.
             </p>
           </div>
-          <div class="col-xs-12 col-md-4 item color-1 text-center active">
+          <div class="col-xs-12 col-md-4 item color-1 text-center active wow bounceInDown">
             <div class="icon bg-1 color-2">
               <i class="fa fa-puzzle-piece fa-3x" aria-hidden="true"></i>
             </div>
@@ -147,7 +145,7 @@
               vestibulum fringilla accumsan ornare quis.
             </p>
           </div>
-          <div class="col-xs-12 col-md-4 item color-3 text-center">
+          <div class="col-xs-12 col-md-4 item color-3 text-center wow bounceInDown">
             <div class="icon color-2 bg-3">
               <i class="fa fa-life-ring fa-3x" aria-hidden="true"></i>
             </div>
@@ -635,6 +633,7 @@
           </button>
         </div>
       </div>
+      <div class="clearfix"></div>
     </section>
     <!-- End Facts Section -->
     <!-- Start Team Section -->
@@ -869,6 +868,7 @@
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
     </section>
     <!-- End Team Section -->
     <!-- Start testimonials Section-->
@@ -878,20 +878,33 @@
       </div>
       <div class="container">
         <div class="owl-carousel testimonials-carousel">
-          <q class="color-2">111Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </q>
-          <q class="color-2">6322Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</q>
-          <q class="color-2">354Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </q>
-          <q class="color-2">9988Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</q>
+          <q class="color-2"
+            >111Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.
+          </q>
+          <q class="color-2"
+            >6322Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.</q
+          >
+          <q class="color-2"
+            >354Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.
+          </q>
+          <q class="color-2"
+            >9988Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat.</q
+          >
         </div>
         <div class="control-slide">
           <button class="customPrevBtn costom-btn">
-              <i class="fa fa-caret-left fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-caret-left fa-2x" aria-hidden="true"></i>
           </button>
           <button class="customNextBtn costom-btn">
-              <i class="fa fa-caret-right fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-caret-right fa-2x" aria-hidden="true"></i>
           </button>
+        </div>
       </div>
-      </div>
+      <div class="clearfix"></div>
     </section>
     <!-- End testimonials Section-->
     <footer>
@@ -916,7 +929,9 @@
         <button class="btn">Send</button>
       </form>
     </footer>
-    <div class="copy text-center w-100">Copyright © <span class="current-year"></span>.</div>
+    <div class="copy text-center w-100">
+      Copyright © <span class="current-year"></span>.
+    </div>
     <script
       src="https://code.jquery.com/jquery-1.12.4.min.js"
       integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
@@ -932,20 +947,9 @@
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
     <script>
-      wow = new WOW({
-        boxClass: "wow", // default
-        animateClass: "animated", // default
-        offset: 0, // default
-        mobile: true, // default
-        live: true, // default
-      });
-      wow.init();
+      new WOW().init();
     </script>
     <script src="js/main.js"></script>
   </body>

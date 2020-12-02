@@ -28,7 +28,7 @@ const css = async (done) => {
         )
       )
       .pipe(gulpif(!isDev, cleanCSS()))
-      .pipe(gulpif(!isDev, concat("main.min.css"), concat("main.css")))
+      .pipe(gulpif(!isDev, concat("main.css"), concat("main.css")))
       .pipe(gulpif(isDev, dest(styles.tmpCSS), dest(styles.distCSS)))
       .pipe(browserSync.stream())
       .on("end", res)

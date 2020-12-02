@@ -71,8 +71,19 @@ Bootstrap is a free collection of tools for creating a websites and web applicat
 - JS Files.
 - PSD File.
 
+## Credits
+
+- Google Fonts 
+- Font Awesome
+- Bootstrap
+- Jquery
+- Gulp
+- Animate.style
+- OwlCarousel 2
+- WoW.js
+- Jquery circle progress
+
 ## Support:
 
 - If you need any help using the file or need special customizing please contact me via my Github or my Website.
 - If you like my html template, please follwo me , We’ll appreciate it very much Thank you.
-

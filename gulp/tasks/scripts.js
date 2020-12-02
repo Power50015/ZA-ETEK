@@ -35,7 +35,7 @@ const js = async (done) => {
         )
       )
       .pipe(gulpif(!isDev, uglify()))
-      .pipe(gulpif(!isDev, concat("main.min.js"), concat("main.js")))
+      .pipe(gulpif(!isDev, concat("main.js"), concat("main.js")))
       .pipe(gulpif(isDev, dest(scripts.tmpJS), dest(scripts.distJS)))
       .pipe(browserSync.stream())
       .on("end", res)
