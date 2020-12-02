@@ -3,13 +3,13 @@ This is Bootstrap 3 Theme
 
 For Live Preview :https://power50015.github.io/ZACETEK/
 
-INTRODUCTION & FEATURE
+## INTRODUCTION & FEATURE
 
 ZAČETEK is a Creative & Modern One Page Template is a perfect template for Business Startups, web
 studio and creative agencies. Responsive based on Bootstrap. This is one page for placing your
 information. All files and code has been well organized and nicely commented for easy to customize.
 
-WHY HTML & BOOTSTARP?
+## WHY HTML & BOOTSTARP?
 
 Why we're exporting HTML in the first place.…It's an open standard, so it's not goanna taken away…by
 any one, single company.…It's the language of the web, … so it's already viewable on every modern
@@ -22,7 +22,7 @@ also programmed to support both HTML5 and CSS3.
 Also it is called Front-end-framework.
 Bootstrap is a free collection of tools for creating a websites and web applications.
 
-MAIN FEATURES :
+## MAIN FEATURES :
 
 Valid HTML5, CSS3, jQuery.
 
@@ -42,25 +42,8 @@ Bootstrap 3.3.7.
 
 Font-awesome-4.7.0.
 
-Well Documented & More……
 
-
-COMPATIBLE BROWSERS :
-
- IE6. IE7, IE8, IE9, IE10, IE11.
-
- Firefox.
-
- Safari.
-
- Opera.
-
- Chrome.
-
- Edge.
-
-
-FILES INCLUDED :
+## FILES INCLUDED :
 
  HTML Files.
 

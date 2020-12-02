@@ -1,0 +1,462 @@
+/*
+Theme Name: ZACETEK
+Theme URI: https://github.com/Power50015/ZACETEK
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Base, Root & Global Classes
+2.0 Layout
+    2.01 Header
+    2.02 Nav Bar
+    2.03 Section 1
+    2.04 Section 2
+    2.05 Section 3
+    2.06 Progress section
+    2.07 Work section
+    2.08 SKILLS section
+    2.09 Section 7
+    2.10 Section 8
+    2.11 Google Map
+    2.12 Copy Right
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 Base, Root & Global Classes
+--------------------------------------------------------------*/
+:root {
+  --color-1: #00a99d;
+  --color-2: #f9f9f9;
+  --color-3: #333;
+}
+* {
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.bold {
+  font-weight: bold;
+}
+.m-0 {
+  margin: 0;
+}
+.mt-5 {
+  margin-top: 20rem;
+}
+.mt-4 {
+  margin-top: 15rem;
+}
+.mt-3 {
+  margin-top: 10rem;
+}
+.mt-2 {
+  margin-top: 5rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.w-100 {
+  width: 100% !important;
+}
+.color-1 {
+  color: var(--color-1) !important;
+}
+.bg-1,
+.dropdown-menu > .active > a,
+.overlay {
+  background-color: var(--color-1) !important;
+}
+.color-2 {
+  color: var(--color-2) !important;
+}
+.bg-2 {
+  background-color: var(--color-2) !important;
+}
+.color-3 {
+  color: var(--color-3);
+}
+.bg-3 {
+  background-color: var(--color-3) !important;
+}
+.overlay {
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0px;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+.title {
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+.title p {
+  padding: 25px 0 20px;
+  font-size: 15px;
+  letter-spacing: normal;
+  font-weight: normal;
+}
+.key {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: -25px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 5px;
+  transform: rotate(45deg);
+  background-color: var(--color-1);
+}
+.key i {
+  transform: rotate(24deg);
+}
+body {
+  background-color: var(--color-2);
+}
+/*--------------------------------------------------------------
+2.0 Layout
+--------------------------------------------------------------*/
+/** 2.1 header**/
+.header {
+  background-image: url(../img/Header.jpg);
+  min-height: 750px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.header .overlay {
+  opacity: 0.1;
+}
+.header .container {
+  position: relative;
+  z-index: 5;
+}
+.header .ask {
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+}
+.header h1 {
+  font-family: "Showcard Gothic";
+  font-size: 60px;
+}
+.header .black-box {
+  margin-top: 5px;
+}
+.header .black-box,
+.header .start {
+  font-family: "Tw Cen MT Condensed";
+  font-size: 30px;
+}
+.header .animation-arrow {
+  display: inline-block;
+  padding: 7px;
+}
+.header .animation-arrow {
+  font-size: 70px;
+  transition: 0.5s linear;
+}
+.header .animation-arrow:hover {
+  color: var(--color-3);
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  .header h1 {
+    font-size: 46px;
+  }
+}
+/**2.2 Nav bar**/
+.navbar .navbar-brand {
+  padding: 0;
+}
+.navbar .navbar-collapse {
+  width: auto;
+}
+@media (max-width: 767px) {
+  .navbar .navbar-collapse {
+    width: 100% !important;
+  }
+}
+.navbar-default {
+  border-bottom: 3px solid #e7e7e7;
+  padding: 12px;
+  font-family: "Heebo", sans-serif;
+}
+/** 2.3 Offer Section**/
+.offer .item .icon {
+  border-radius: 50%;
+  width: 100px;
+  padding: 30px 0;
+  margin: auto;
+}
+.offer .item.active {
+  background-color: #eee;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.offer .item.active .icon {
+  padding: 25px 31px;
+}
+/** 2.4 Features article **/
+article.features {
+  margin-top: 60px;
+  color: #fff;
+}
+article.features .feature {
+  margin: 30px 0;
+  position: relative;
+}
+article.features .feature .feature-icon {
+  margin-right: 5%;
+}
+article.features .feature .feature-words {
+  width: 80%;
+}
+article.features .feature .feature-words h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+article.features .feature .feature-words p {
+  margin-bottom: 20px;
+}
+article.features .res {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 500px;
+}
+/** 2.5 features section  **/
+section.features {
+  margin-top: 100px;
+}
+section.features .cre-item {
+  margin-bottom: 70px;
+}
+section.features .cre-icon {
+  width: 40px;
+  height: 70px;
+  background-image: url(../img/icon/icon.png);
+  padding-top: 10px;
+  margin: 11px 20px 50px 0;
+  transition: 1s ease;
+}
+section.features .cre-item:hover .cre-icon {
+  background-image: url(../img/icon/icon1.png);
+}
+section.features .cre-word .cre-h {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+section.features .cre-word small {
+  opacity: 0.5;
+}
+section.features .cre-word .cre-para {
+  margin-top: 10px;
+}
+/** 2.6 progress section**/
+.skills {
+  margin-top: 10px;
+}
+.skills .key i {
+  transform: rotate(-45deg);
+}
+.skills .circle {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: relative;
+  line-height: 1.2;
+}
+.skills .circle .val {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  line-height: 40px;
+  font-size: 30px;
+}
+.skills .circle span {
+  display: block;
+  margin-top: 12px;
+}
+/** 2.7 work section **/
+.work {
+  padding-top: 50px;
+}
+.work .title {
+  padding-bottom: 50px;
+}
+.work .item {
+  padding: 0px;
+}
+.work .item .img-rounded {
+  display: block;
+  height: auto;
+  border-radius: 0;
+}
+.work .item .overlay {
+  opacity: 0.1;
+}
+.work .item .overlay .overlay-content {
+  margin-top: 25%;
+  display: none;
+}
+.work .item:hover .overlay {
+  opacity: 0.9;
+}
+.work .item:hover .overlay .overlay-content {
+  display: block;
+}
+.work .smart-button {
+  margin-top: 30px;
+}
+.work .smart-button {
+  font-weight: bold;
+  letter-spacing: 10px;
+  transition: 0.7s ease-in-out;
+}
+.work .smart-button:hover {
+  color: var(--color-2);
+  letter-spacing: 50px;
+}
+/** 2.8 SKILLS section**/
+.facts {
+  margin-top: 50px;
+}
+.facts .key i {
+  transform: rotate(-45deg);
+}
+.facts .number {
+  display: inline-block;
+}
+.facts .number i {
+  margin: 63px 10px 0;
+}
+.facts .number h2 {
+  font-size: 80px;
+}
+.facts .fa-circle-o:before {
+  transition: 0.5s ease-in;
+}
+.facts .col-xs-12:hover .fa-circle-o:before {
+  color: var(--color-2);
+  content: "\f111";
+}
+.facts .fact-item span hr {
+  width: 40%;
+}
+.facts .fact-item span i {
+  margin: 8px;
+}
+.facts .fact-item h5 {
+  font-weight: bold;
+}
+.facts .section-quez {
+  padding: 20px 0;
+}
+.facts .section-quez h4 {
+  font-weight: bold;
+  display: inline-block;
+}
+.facts .section-quez .btn {
+  display: inline-block;
+  padding: 12px;
+  font-weight: bold;
+  transition: 0.5s ease-in;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.facts .section-quez .btn:hover {
+  padding: 12px 25px;
+}
+/**2.9 team section **/
+.team .team-carousel .item img {
+  height: 260px;
+}
+.team .team-carousel .owl-dots .active {
+  background-color: var(--color-1);
+}
+.team .team-carousel button.owl-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: var(--color-3);
+}
+.team .owl-dots {
+  margin: 15;
+  text-align: center;
+}
+.team .item {
+  border: 1px solid #dedede;
+}
+.team .item .overlay {
+  height: 262px;
+}
+.team .item:hover .overlay {
+  opacity: 0.8;
+}
+.team .item .overlay .overlay-content {
+  margin-top: 40%;
+}
+.team .item .overlay .overlay-content a {
+  color: var(--color-2);
+  margin-right: 5px;
+}
+.team .item .overlay .overlay-content a:hover {
+  color: var(--color-3);
+}
+.team .item .team-name {
+  bottom: 19px;
+  background-color: var(--color-1);
+  width: 150px;
+  display: block;
+  color: #f9f9f9;
+  position: relative;
+  padding: 1px;
+  margin-bottom: 0px;
+}
+/*2.10 Testimonials Section*/
+.testimonials .key i {
+  transform: rotate(-45deg);
+}
+.testimonials .owl-item{
+  text-align: center !important;
+}
+.testimonials q {
+  font-size: 30px;
+}
+.testimonials .control-slide {
+  text-align: center;
+  margin: 30px;
+}
+.testimonials .control-slide .costom-btn {
+  background-color: var(--color-2);
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+.testimonials .control-slide .costom-btn .fa-2x {
+  color:var(--color-1);
+}
+.testimonials .control-slide .costom-btn:hover {
+  background-color: var(--color-3);
+}
+.testimonials .control-slide .costom-btn:hover .fa-2x {
+  color: var(--color-2);
+}
+/* 2.11 googleMap*/
+footer .my-form {
+  width: 30%;
+  margin-top: -400px;
+  margin-left: 20%;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+}
+
