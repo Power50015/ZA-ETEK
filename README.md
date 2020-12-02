@@ -1,7 +1,37 @@
-# ZACETEK
-This is Bootstrap 3 Theme
+# ZACETEK (Bootstrap team Template)
+an old template i made for education purpose.
+
+![Preview Img](UX/screen.png)
 
 For Live Preview :https://power50015.github.io/ZACETEK/
+
+## Quickstart
+
+1. Install the [node.js](https://nodejs.org/en/)
+2. Clone the project
+
+    ```bash
+    git clone https://Power50015/Bander-HTML-Musical-Band-Template.git
+    ```
+
+3. Go to project folder and run
+
+    ```bash
+    npm install
+    ```
+
+4. Start development mode
+
+    ```bash
+    npm run gulp:dev
+    ```
+
+5. In browser open page with address [http://localhost:3000/](http://localhost:3000/)
+
+### Main tasks
+
+- npm run gulp:dev -  launches watchers and server & compile project.
+- npm run gulp:build - optimize & minify files for production version.
 
 ## INTRODUCTION & FEATURE
 
@@ -24,29 +54,19 @@ Bootstrap is a free collection of tools for creating a websites and web applicat
 
 ## MAIN FEATURES :
 
-Valid HTML5, CSS3, jQuery.
-
-W3C Validated.
-
-HTML5, CSS3, jQuery.
-
-Free Google Fonts.
-
-Fully Customizable.
-
-Clean Code.
-
-Fully Responsive.
-
-Bootstrap 3.3.7.
-
-Font-awesome-4.7.0.
+- Valid HTML5, CSS3, jQuery.
+- W3C Validated.
+- HTML5, CSS3, jQuery.
+- Fully Customizable.
+- Clean Code.
+- Fully Responsive.
+- Bootstrap 3.3.7.
+- Font-awesome-4.7.0.
 
 
 ## FILES INCLUDED :
 
- HTML Files.
-
- CSS Files.
-
- JS Files.
+- HTML Files.
+- CSS Files.
+- JS Files.
+- PSD File.
