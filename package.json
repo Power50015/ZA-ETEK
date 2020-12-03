@@ -1,6 +1,6 @@
 {
   "name": "Zacetek",
-  "version": "1.1.0",
+  "version": "1.0.3",
   "description": "Bootstarp 3 template for small teams",
   "main": "index.html",
   "scripts": {
