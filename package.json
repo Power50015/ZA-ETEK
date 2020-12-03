@@ -17,9 +17,9 @@
   "author": "Mohamed Ashamallah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Power50015/ZACETEK/issues"
+    "url": "https://github.com/Power50015/ZACETEK-Bootstrap3-Team-Template/issues"
   },
-  "homepage": "https://github.com/Power50015/ZACETEK#readme",
+  "homepage": "https://github.com/Power50015/ZACETEK-Bootstrap3-Team-Template#readme",
   "dependencies": {
     "gulp": "^4.0.2"
   },
