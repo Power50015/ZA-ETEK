@@ -1,5 +1,5 @@
 # ZACETEK (Bootstrap team Template)
-an old template i made for education purpose.
+an old template I made for education purpose.
 
 ![Preview Img](UX/screen.png)
 
@@ -11,7 +11,7 @@ For Live Preview :https://zacetek-bootstrap3-team-template.netlify.app/
 2. Clone the project
 
     ```bash
-    git clone https://Power50015/Bander-HTML-Musical-Band-Template.git
+    git clone https://Power50015/ZACETEK-Bootstrap3-Team-Template.git
     ```
 
 3. Go to project folder and run

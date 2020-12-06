@@ -1,6 +1,6 @@
 /*
 Theme Name: ZACETEK
-Theme URI: https://github.com/Power50015/ZACETEK
+Theme URI: https://github.com/Power50015/ZACETEK-Bootstrap3-Team-Template
 */
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -8,17 +8,16 @@ Theme URI: https://github.com/Power50015/ZACETEK
 1.0 Base, Root & Global Classes
 2.0 Layout
     2.01 Header
-    2.02 Nav Bar
-    2.03 Section 1
-    2.04 Section 2
-    2.05 Section 3
-    2.06 Progress section
+    2.02 NavBar
+    2.03 Offer Section
+    2.04 Features article
+    2.05 Features section
+    2.06 Skills section
     2.07 Work section
-    2.08 SKILLS section
-    2.09 Section 7
-    2.10 Section 8
-    2.11 Google Map
-    2.12 Copy Right
+    2.08 Facts section
+    2.09 Team section
+    2.10 Testimonials Section
+    2.11 Footer
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 1.0 Base, Root & Global Classes
@@ -169,7 +168,7 @@ body {
     font-size: 46px;
   }
 }
-/**2.2 Nav bar**/
+/**2.2 Navbar**/
 .navbar .navbar-brand {
   padding: 0;
 }
@@ -258,7 +257,7 @@ section.features .cre-word small {
 section.features .cre-word .cre-para {
   margin-top: 10px;
 }
-/** 2.6 progress section**/
+/** 2.6 skills section**/
 .skills {
   margin-top: 10px;
 }
@@ -323,7 +322,7 @@ section.features .cre-word .cre-para {
   color: var(--color-2);
   letter-spacing: 50px;
 }
-/** 2.8 SKILLS section**/
+/** 2.8 facts section**/
 .facts {
   margin-top: 50px;
 }
@@ -449,7 +448,7 @@ section.features .cre-word .cre-para {
 .testimonials .control-slide .costom-btn:hover .fa-2x {
   color: var(--color-2);
 }
-/* 2.11 googleMap*/
+/* 2.11 Footer*/
 footer .my-form {
   width: 30%;
   margin-top: -400px;
