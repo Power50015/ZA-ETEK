@@ -11,7 +11,7 @@ For Live Preview :https://zacetek-bootstrap3-team-template.netlify.app/
 2. Clone the project
 
     ```bash
-    git clone https://Power50015/ZACETEK-Bootstrap3-Team-Template.git
+    git clone https://github.com/Power50015/ZACETEK-Bootstrap3-Team-Template.git
     ```
 
 3. Go to project folder and run
